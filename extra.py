@@ -1,4 +1,4 @@
-"""Bom dia! Você já cegou aqui, então você já sabe quem eu sou, seu objetivo agora é fazer a função para
+"""Bom dia! Você já chegou aqui, então você já sabe quem eu sou, seu objetivo agora é fazer a função para
 desencriptar o texto, a string encriptada é 'rob emdrmx ctm adupoáeio urAi omoa' boa sorte!"""
 
 
