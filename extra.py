@@ -19,3 +19,8 @@ def encode(key, plaintext):
             except IndexError:
                 continue
     return ciphertext
+
+encoded = 'rob emdrmx ctm adupoáeio urAi omoa'
+plain_text = 'embaixo do meu computador no armário'
+key = '52413'
+print(f"chave: {key}\n resultado: {encode(key, plain_text)}\n esperado: {encoded}")

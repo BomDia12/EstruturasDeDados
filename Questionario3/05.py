@@ -1,0 +1,5 @@
+n = int(input())
+parentes = sorted([int(parente) for parente in input().split()])
+menor, maior = sum(parentes) // len(parentes) - 1, sum(parentes) // len(parentes)
+print(min(sum([parente - menor if menor < parente else menor - parente for parente in parentes]), sum([parente - maior if maior < parente else maior - parente for parente in parentes])))
+print(menor, maior)
