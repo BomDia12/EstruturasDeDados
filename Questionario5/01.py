@@ -11,8 +11,8 @@ def check(big, inner):
 
 
 size_big = int(input())
-big_graph = [[int(value) for value in input().split()] for vertex in range(size_big)]
+big_graph = [[int(value) for value in input().split()] for _ in range(size_big)]
 input()
 size_inner = int(input())
-inner_graph = [[int(value) for value in input().split()] for vertex in range(size_inner)]
+inner_graph = [[int(value) for value in input().split()] for _ in range(size_inner)]
 print('Sub-sub!' if check(big_graph, inner_graph) else 'Ue? Ue? Ue?')
